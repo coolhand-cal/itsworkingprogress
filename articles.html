@@ -17,47 +17,239 @@
         <div class="banner-image">
             <h1 class="logo" ></h1>
             <nav>
-                <a href ="#"> Home </a>
-                <a href ="#"> Articles </a> 
-                <a href ="#"> Blog </a>
-                <a href ="#"> Music </a>
+                <a href ="index.html"> Home </a>
+                <a href ="articles.html"> Articles </a> 
+                <a href ="blog.html"> Blog </a>
+                <a href ="music.html"> Music </a>
                 <a href = "#"> Shop </a>
                 <a href = "#"> Connect </a>
             </nav>
         </div>
     </header>
     <main>
-        <div class ="left-side">
-            <div class="light-panel">
-                <h2> News </h2>
-                <article class="feature">
+        <div class="sides">
+                <section class="light-panel">
+                    <h2> News </h2>
+                    <hr>
+
+                    <!-- Feature article -->
+
+                    <article class="feature-article">
+                        <header>
+
+                            <!-- Tags let you know what article is about can be used to find related content -->
+
+                        <ul class= "feature-tags" >
+                            <li>Social science</li>
+                            <li>Mental Models</li>
+                        </ul>
+
+                        <!-- information about aricle; title, summary or blurb to hook reader, author,   -->
+
+                        <section class="feature-info">
+                            <H3>feature Title</H3>
+                            <p>article summary here. a few sentences to get them to go further. nice blurb bro</p>
+                            <hr>
+                            <section class="author-info">
+                                <p>BY: Calvin Croxton | </p>
+                                <p> Dec 7, 2020</p>
+                            </section>
+                            <hr>
+                        </section>
+                        </header>
+                        <section class="feature-img">
+                            <img src="images/magnify.jpg">
+                            <p>image caption</p>
+                        </section>
+
+                        <!-- The meat of the article here   -->
+
+                        <section class="feature-content">
+                            <p> what are the ways of knowing, why are they important? who is your source of information
+                                this is where things get long but its okay eventually im going to store this text as something
+                                i can more easily reach through but that will come during the following week for now i want to
+                                first get the structure together. fill it out with just a few articles and blogs by reaching back
+                                through some of my past notes or instagram posts. then work towards an easier content management system
+                            </p>
+                        </section>
+
+                        <!-- footer section includes sources   -->
+
+                        <footer>
+                            <p>sources: blah...</p>
+                        </footer>
+
+                        <!-- end of feature article section,   -->
+                    </article>
+                    <hr>
+
+                    <!-- up to three related articles that function similar to the section on the home page -->
+
+                    <article class="related-articles">
+
+                        <!-- each section represents an article. each has a Title, pic, blurb, and tags in that order   -->
+    
+                          <!-- FIRST ARTICLE   -->
+                            <section class="secondary-article">
+                                <header>
+                                    <H3>feature Title</H3>
+                                    <hr>
+                                    <section class="author-info">
+                                        <p>C. Croxton | </p>
+                                        <p> Dec 7</p>
+                                    </section>
+                                    <hr>
+                                    </header>
+    
+                                <section class="secondary-img">
+                                    <img src="images/magnify.jpg">
+                                 </section>
+
+                                 <section class="secondary-blurb">
+                                     <p>This is The Another article so it needs another hook Something Short and sweet just
+                                         Enough to get them in the door. ya know ya know.
+                                     </p>
+                                 </section>
+                                 <footer>
+                                    <ul class= "secondary tags" >
+                                        <li>Social science</li>
+                                        <li>Mental Models</li>
+                                    </ul>
+                                </footer>
+                            </section>
+                            <hr>
+                                <!-- second ARTICLE   -->
+                                <section class="secondary-article">
+                                    <header>
+                                    <H3>feature Title</H3>
+                                    <hr>
+                                    <section class="author-info">
+                                        <p>C. Croxton | </p>
+                                        <p> Dec 7</p>
+                                    </section>
+                                    <hr>
+                                    </header>
+        
+                                    <section class="secondary-img">
+                                        <img src="images/magnify.jpg">
+                                     </section>
+    
+                                     <section class="secondary-blurb">
+                                         <p>This is The Another article so it needs another hook Something Short and sweet just
+                                             Enough to get them in the door. ya know ya know.
+                                         </p>
+                                     </section>
+                                     <footer>
+                                        <ul class= "secondary tags" >
+                                            <li>Social science</li>
+                                            <li>Mental Models</li>
+                                        </ul>
+                                    </footer>
+                                </section>
+                                <hr>
+                                <!-- third article   -->
+
+                                <section class="secondary-article">
+                                    <header>
+                                        <H3>feature Title</H3>
+                                        <hr>
+                                        <section class="author-info">
+                                            <p>C. Croxton | </p>
+                                            <p> Dec 7</p>
+                                        </section>
+                                        <hr>
+                                        </header>
+        
+                                    <section class="secondary-img">
+                                        <img src="images/magnify.jpg">
+                                     </section>
+    
+                                     <section class="secondary-blurb">
+                                         <p>This is The Another article so it needs another hook Something Short and sweet just
+                                             Enough to get them in the door. ya know ya know.
+                                         </p>
+                                     </section>
+                                     <footer>
+                                        <ul class= "secondary tags" >
+                                            <li>Social science</li>
+                                            <li>Mental Models</li>
+                                        </ul>
+                                    </footer>
+                                </section>
+
+                         <!-- END OF RELATATED ARTICLES SECTIONS  -->
+                    </article>
+                        <!-- Tertiatry articles  -->
+                        <ul>
+                            <hr>
+                            <li>
+                                <article class="tertiary-article">
+
+                                    <section class="tertiary-img">
+                                        <img src="images/thanks.jpg">
+                                    </section>
+
+                                    <section class="article-info">
+                                        <header>
+                                            <H3>feature Title</H3>
+                                        </header>
+                                        <section class="author-info">
+                                            <p>C. Croxton | </p>
+                                            <p> Dec 7</p>
+                                        </section>
+                                        <footer>
+                                            <ul class= "tertiary-tags" >
+                                                <li>Social science</li>
+                                                <li>Mental Models</li>
+                                            </ul>
+                                        </footer>
+                                            
+                                            
+                                    </section>
+                                    
+
+                                </article>
+                            </li>
+                            <hr>
+                        </ul>
+ <!-- END OF tertiary ARTICLES SECTION and close of left side panel  -->
+                </section>
+
+             <!-- begin OF Right panel  -->
+            <section class="right-side">
+                <article class="blog-card">
                     <header>
-                    <ul class= "feature-tags">
-                        <li>Social science</li>
-                        <li>Mental Models</li>
-                    </ul>
-                    <section class="feature-info">
-                        <H3>feature Title</H3>
-                        <p>article summary here. a few sentences to get them to go further. nice blurb bro</p>
-                        <hr>
-                        <p>BY: Calvin Croxton</p>
-                        <p>Dec 7, 2020</p>
-                        <hr>
-                    </section>
+                        <h3>Blog Title</h3>
+                        <p>Blog date</p>
                     </header>
-                    <section class="feature-img">
-                        <img src="images/magnify.jpg">
-                        <p>image caption</p>
+                    <section class="blog-img">
+                        <img src="images/Basketball.jpg">
                     </section>
-                    <section class="feature-content">
-                        <p>this is where the meat goes</p>
+                    <section class="blurb">
+                        <p>This can be a nice chuncky munky style exceprt from the blog post i usually write them in
+                            story like fashion anyway. once the draw is in i can catch en with the read more button. yes yes yall u dont stop.
+                        </p>
                     </section>
-                    <footer>
-                        <p>sources: blah...</p>
-                    </footer>
-                </article>
-            </div >
-                
+                   <hr>
+                    <section class="ad-card">
+                        <p>Advertisement</p>
+                        <img src="images/ad-space.png">
+                    </section>
+                    <hr>
+                    <section class="signup-card" >
+                        <h2> are you a workaholic? </h2>
+                        <p>Enjoying the site? want to recieve updates when new content is posted?</p>
+                        <p>Enter your email address to sign up for alerts 
+                        <input type="email"> <button>submit</button>
+                    </p>
+                    </section>
+                    <hr>
+                 <!-- END OF Right panel  -->    
+                </section>
+              
+
+            </div>
+        </div>
             
     
         <footer class="dark-panel2">

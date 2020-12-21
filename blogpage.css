@@ -1,4 +1,4 @@
- html {
+html {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -75,7 +75,7 @@ header nav a:hover{
 /*light panel has curved edges at the top/ for placement on left side of screen */
 body main .light-panel  {
     background-color: #a6a6a6;
-    width: 650px;
+    min-width: 650px;
     color: #292929; 
     border-radius: 20px 20px 0px 0;
     margin-left: 10%;
@@ -262,45 +262,7 @@ padding-left:5px;
     margin: 0px;
 }
 
-/* article styles - related articles section, */
 
-.related-articles {
-display: flex;
-}
-.secondary-article img {
-width: 200px;
-height: 200px;
-padding-top: 3px;
-}
-.secondary-article footer li {
-width: 80px;
-height: 15px;
-border: 1px solid black ;
-padding: 1px;
-margin: 2px;
-background-color: #F0EFEC;
-border-radius: 10px;
-font-size: 10px;
-position: relative;
-text-align: center;
-}
-
-.secondary-article header hr {
-    margin: 2px;
-    padding: 0px;
-}
-.secondary-article .author-info p {
-    margin: 0px;
-    padding: 2px;
-}
-.secondary-article footer ul{
-    display: flex;
-    text-align: left;
-    list-style: none;
-    position: relative;
-     justify-content: flex-start;
-     transform: translate(-20px);
- }
 
  /* article styles - tertiary articles section, */
 

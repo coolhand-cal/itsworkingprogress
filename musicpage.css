@@ -1,4 +1,4 @@
- html {
+html {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -74,7 +74,7 @@ header nav a:hover{
 
 /*light panel has curved edges at the top/ for placement on left side of screen */
 body main .light-panel  {
-    background-color: #a6a6a6;
+    background-color: #BF4F49;
     width: 650px;
     color: #292929; 
     border-radius: 20px 20px 0px 0;
@@ -156,203 +156,68 @@ body .dark-panel2 img{
 width: 50px;
 }
 
+/* style for left panel*/
 
-/*article styles , */
-
-main article {
-    display: block;  
-    text-align: center;
+/* styles for featured release*/
+.feature-release {
+    background-color: #BF4F49;
+    min-width: 650px;
+    border: 1px;
+    border-style: solid;
+    border-color: aqua;
+    display: inline-flex;
+    color: #F0EFEC;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #61F7FF;
+}
+.feature-release:hover{
+    background-color: #803531;
 }
 
-main article header{
-    width: 100%;
-   
-/*article styles - feature article, */
-}
-.feature-article header ul{
-   display: flex;
-   text-align: right;
-   list-style: none;
-    justify-content: flex-end;
+.feature-release img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    float: left;
+    padding: 5px;
 }
 
-/* article styles - feature article,  li is the tags in the header*/ 
-
-.feature-article header li {
-    width: 80px;
-    height: 15px;
-    border: 1px solid black ;
-    padding: 3px;
-    margin: 5px;
-    background-color: #F0EFEC;
-    border-radius: 10px;
-    font-size: 10px;
+.feature-info {
     position: relative;
     text-align: center;
- }
-
-/* article styles - feature article, */
-
-.feature-article h3{
-    color: #2E55CA;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 20px;
-
 }
-
-.feature-article hr {
-    padding: 0px;
+.feature-info h3 {
     margin: 0px;
-}
-.feature-article header p{
-    color: #172B65;
-
+    margin-top: 10px;
+    padding: 2px;
 }
 
-
-/* article styles - author info, */
-
-.author-info{
-    display: flex;
-    text-align: left;
-    margin-left: 20px;
-}
-.author-info p {
-    padding: 0px;
-    padding-left: 10px;
-}
-
-
-/* article styles - feature image, */
-
-.feature-article img {
-    width: 500px;
-    height: 300px;
-    padding-top: 10px;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-left: 0px;
-}
-
-
-.feature-img P {
-padding: 0px;
-margin: 0px;
-text-align: left;
-margin-left: 10%;
-padding-left:5px;
-}
-
-
-/* article styles - feature content, */
-
-.feature-content p {
-    text-align: left;
-    text-indent: 4%;
-}
-
-
-.footnote {
-    color: white;
-}
-
-.feature-tags {
-    margin-bottom: 0px;
-    padding: 0px;
-    margin: 0px;
-}
-
-/* article styles - related articles section, */
-
-.related-articles {
-display: flex;
-}
-.secondary-article img {
-width: 200px;
-height: 200px;
-padding-top: 3px;
-}
-.secondary-article footer li {
-width: 80px;
-height: 15px;
-border: 1px solid black ;
-padding: 1px;
-margin: 2px;
-background-color: #F0EFEC;
-border-radius: 10px;
-font-size: 10px;
-position: relative;
-text-align: center;
-}
-
-.secondary-article header hr {
-    margin: 2px;
-    padding: 0px;
-}
-.secondary-article .author-info p {
+.feature-info h4 {
     margin: 0px;
     padding: 2px;
 }
-.secondary-article footer ul{
+
+/* style for bio panel*/
+.bio {
     display: flex;
-    text-align: left;
-    list-style: none;
-    position: relative;
-     justify-content: flex-start;
-     transform: translate(-20px);
- }
-
- /* article styles - tertiary articles section, */
-
- .tertiary-article {
-     display: flex;
- }
-
- .tertiary-article img {
-    width: 75px;
-    height: 75px;
-    padding-top: 2px;
 }
 
-.tertiary-article h3{
-    margin: 0px;
+.bio img {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+.bio h3 {
     margin-left: 10px;
-    position: relative;
-    text-align: left;
-    padding-bottom: 4px;
 }
-.tertiary-article p{
-    margin: 0px;
-    position: relative;
-    text-align: left;
-    padding-bottom: 4px;
-    
-}
+/* style for more music panel*/
 
-.light-panel ul {
-    list-style: none;
-}
-.tertiary-article footer ul {
-    display: flex;
-    list-style: none;
-    padding: 30px, 5px;
-}
-
-.tertiary-article footer li {
-    width: 80px;
-    height: 15px;
-    border: 1px solid black ;
-    padding: 1px;
-    margin: 4px;
-    background-color: #F0EFEC;
-    border-radius: 10px;
-    font-size: 10px;
-    position: relative;
+.playlist {
+    display: block;
+    justify-content: center;
     text-align: center;
-    }
-
-    
-
+}
+ 
  /* style for right panel*/
  
  .right-side{
