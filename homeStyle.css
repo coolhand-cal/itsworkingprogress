@@ -5,9 +5,13 @@ body, html {
     font-family: sans-serif;
     background-color: #545454;
     min-width: 800px;
+    
+    letter-spacing: 1px;
 }
 body {
     width: 80%;
+    
+    margin-left: 100px;
 }
 
 .banner-image{
@@ -43,12 +47,13 @@ head {
 }
 
 
-
+/* nav bar colors */
 header nav a  {
     width: 70px;
     display: inline-block;
     margin: 5% 2px;
-    padding: 10px 5px;
+    padding: 10px 3px;
+    padding-bottom: 1px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
@@ -61,10 +66,29 @@ header nav a  {
     border-radius: 20px 20px 0px 0;
 
 }
-
 header nav a:hover{
     background-color: #F0EFEC;
 }
+
+
+.article-link:hover {
+    background-color: #fdfdaf;
+}
+
+.blog-link:hover {
+    background-color: #9696fd;
+}
+
+.music-link:hover {
+    background-color: #BF4F49;
+}
+
+.connect-link:hover {
+    background-color: #D2691E
+}
+
+
+/* end of nav bar styles*/
 
 body main .light-panel  {
     background-color: #a6a6a6;
@@ -83,7 +107,8 @@ body main .light-panel2  {
 .light-panel h2, .light-panel2 h2{
     padding: 10px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
     color: #E8E8AC;
     text-shadow: 2px 2px #B7B859;
 }
@@ -91,21 +116,35 @@ body main .light-panel2  {
 .dark-panel h2 {
     padding: 10px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
     color: #E8E8AC;
-    text-shadow: 2px 2px #a6a6a6;
+    text-shadow: 2px 2px  #B7B859;
 }
 
-.light-panel p, .light-panel2 p, .dark-panel p {
-    padding: 0px 15px 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h3 {
+    font-family: 'Redressed', cursive;
+}
+
+.light-panel p, .light-panel2 p {
+    padding: 0px 15px 15px;  
+    
+    font-family: 'Kufam', cursive;
     font-size: 16px;
+    color: #3B3B2A;
 }
 
 body main .dark-panel{
     background-color: #737373;
     margin-top: -16px;
     color: #F0EFEC;
+}
+
+.dark-panel p {
+    padding: 0px 15px 15px;  
+    font-family: 'Cinzel', serif;
+   font-size: 16px;
+
 }
 
 body .dark-panel2{
@@ -272,6 +311,11 @@ audio {
     transform: translate(-30px, 4px);
     
 }
+
+
+
+/* card styles - feature article,  li is the tags in the header*/ 
+
 .card {
      
     width: 320px;
@@ -286,8 +330,90 @@ audio {
     
 }
 
-.footnote {
-    color:white;
+.blog-card {
+    text-align: center;
+    width: 320px;
+    justify-content: center;
+    padding: 3%; 
+    background-color: #9696fd;
+}
+
+.blog-card h3 {
+    color:  #425F42;
+    
+    font-family: 'Gaegu', cursive;
+}
+
+.blog-card h4 {
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
+    color: #AFFDAF;
+    text-shadow: 2px 2px  #425F42;
 }
 
 
+.blog-card p {
+    
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 24px;
+    text-align: center;
+    color: #162016;
+    text-indent: 20px;
+}
+
+.news-card {
+    width: 320px;
+    justify-content: center;
+    padding: 3%; 
+    background-color: #EDEDA9;
+    text-align: center;
+}
+
+.news-card h3 {
+    color: #555576;
+}
+
+.news-card p {
+    color: #2A2A3B;
+    text-indent: 20px;
+    text-align: left;
+}
+
+.news-card h4 {
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
+    color: #A9A9ED;
+    text-shadow: 2px 2px  #425F42;
+
+}
+
+.music-card {
+    width: 320px;
+    justify-content: center;
+    padding: 3%; 
+    background-color: #BF4F49;
+    text-align: center;
+}
+
+.music-card h4 {
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
+    color: #E8F6F7;
+    text-shadow: 2px 2px  #292929;
+}
+
+
+.music-card h3 {
+    color: #F0EFEC;
+}
+
+.music-card p{
+    color: #D2EDEF;
+    text-indent: 20px;
+    text-align: left;
+}
+
+
+.footnote {
+    color:white;
+}

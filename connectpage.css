@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    width: 80%;
+    width: 100%;
 
 }
 
@@ -49,8 +49,6 @@ head {
 
 }
 
-
-
 header nav a  {
     width: 70px;
     display: inline-block;
@@ -61,11 +59,11 @@ header nav a  {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     font-weight: bold;
-    color: #F0EFEC;
+    color:  #F0EFEC;
     position: relative;
     text-decoration: none;
     letter-spacing: 1.5px;
-    background-color: #BF4F49;
+    background-color: #D2691E;
     border-radius: 20px 20px 0px 0;
 
 }
@@ -87,7 +85,6 @@ header nav a:hover{
 
 .music-link:hover {
     background-color: #BF4F49;
-    color: #545454;
 }
 
 .connect-link:hover {
@@ -95,15 +92,12 @@ header nav a:hover{
     color: #545454;
 }
 
-header nav a:hover{
-    background-color: #F0EFEC;
-    color: #545454;
-}
+
 
 
 /*light panel has curved edges at the top/ for placement on left side of screen */
 body main .light-panel  {
-    background-color: #BF4F49;
+    background-color: #D2691E;
     width: 650px;
     color: #F0EFEC; 
     border-radius: 20px 20px 0px 0;
@@ -121,6 +115,7 @@ body main .light-panel2  {
     color: #292929;
     margin-top: -10px;
     padding: 0px 20px;
+    
 
 }
 
@@ -128,18 +123,15 @@ body main .light-panel2  {
 .light-panel h2, .light-panel2 h2{
     padding: 8px;
     text-align: center;
-    font-family: 'Acme', sans-serif;
-    letter-spacing: 1px;
-    color: #E8F6F7;
-    text-shadow: 2px 2px  #292929;
+    font-family: 'JetBrains Mono', monospace;
+    color: #F0EFEC;
+    text-shadow: 2px 2px #49B9BF;
     margin-bottom: 0px;
 }
 
 .light-panel h3 {
-    font-family: 'Redressed', cursive;
     padding:0px;
     margin-top: 3px;
-    text-align: center;
 }
 
 
@@ -157,18 +149,17 @@ body main .light-panel2  {
 .left-side{
     position: relative;
     width: 100%;
-    
+    font-family: 'JetBrains Mono', monospace;
 
 }
 
 /*paragrah text styles  */
 
 
-.light-panel p, .light-panel2 p {
+p {
     padding: 0px 15px 5px;
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
 }
 
 
@@ -177,7 +168,7 @@ body .dark-panel2{
     background-color: #737373;
     margin-top: -12px;
     border-radius: 0px 0px 20px 20px;
-    width: 950px;
+    width: 1000px;
     margin-left: 10%;
 display: flex;
 justify-content: center;
@@ -190,84 +181,69 @@ width: 50px;
 }
 
 /* style for left panel*/
-
-/* styles for featured release*/
-.feature-release {
-    background-color: #BF4F49;
-    min-width: 650px;
-    border: 1px;
-    border-style: solid;
-    border-color: aqua;
-    display: inline-flex;
-    color: #F0EFEC
-}
-.feature-release:hover{
-    background-color: #803531;
+.message {
+    margin-left: 30px;
 }
 
-.feature-release img {
-    width: 300px;
-    height: 300px;
-    position: relative;
-    float: left;
-    padding: 5px;
+/* styles for leave a message section*/
+.message-sec {
+    margin-left: 8%;
 }
 
-.feature-info {
-    position: relative;
-    text-align: center;
-}
-.feature-info h3 {
-    margin: 0px;
-    margin-top: 10px;
-    padding: 2px;
+.name-field
+{
+    width: 250px;
 }
 
-.feature-info h4 {
-    margin: 0px;
-    padding: 2px;
+.email-field {
+    width: 350px;
 }
 
-/* style for bio panel*/
-.bio {
+.message-box {
+    height: 100px;
+    
+}
+/* styles for leave a services section*/
+.service-section{
+    justify-content: left;
+    text-align: left;
+    margin-left: 0px;
+}
+ul {
+    transform: translate(-15px);
+}
+ul ul {
     display: flex;
+    text-align: left;
+}
+ul ul li {
+    padding: 5px;
+    margin-left: 20px;
+    font-family: 'JetBrains Mono', monospace;
 }
 
-.bio img {
-    width: 200px;
-    height: 200px;
-    padding: 15px;
-    float: left;
-}
-.bio h3 {
-    margin-left: 10px;
-}
 /* style for more music panel*/
 
-.playlist {
-    display: block;
-    justify-content: center;
-    text-align: center;
-}
+
  
  /* style for right panel*/
  
  .right-side{
      background-color:#737373;
-     min-width: 300px;
+     min-width: 325x;
+     width: 350px;
      color: #F0EFEC; 
      border-radius: 20px 20px 0px 0;
-    text-align: center;
      margin-top: 20px;
      margin-bottom: 10px;
-    
+     text-align: center;
         
     
         
     }
  
 
- .music-card img {
+ .blog-card img {
      width: 200px;
      height: 200px;
      padding: 10px;
@@ -280,3 +256,4 @@ width: 50px;
  .light-panel a {
     text-decoration: none;
  }
+

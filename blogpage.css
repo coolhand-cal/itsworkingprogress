@@ -49,11 +49,13 @@ head {
 }
 
 
+
 header nav a  {
     width: 70px;
     display: inline-block;
     margin: 5% 2px;
-    padding: 10px 5px;
+    padding: 10px 3px;
+    padding-bottom: 1px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
@@ -62,20 +64,39 @@ header nav a  {
     position: relative;
     text-decoration: none;
     letter-spacing: 1.5px;
-    background-color: #A6A6A6;
+    background-color: #9696fd;
     border-radius: 20px 20px 0px 0;
 
+}
+header nav a:hover{
+    background-color: #F0EFEC;
+}
+
+
+.article-link:hover {
+    background-color: #fdfdaf;
+}
+
+.blog-link:hover {
+    background-color: #9696fd;
+}
+
+.music-link:hover {
+    background-color: #BF4F49;
+}
+
+.connect-link:hover {
+    background-color: #D2691E
 }
 
 header nav a:hover{
     background-color: #F0EFEC;
 }
 
-
 /*light panel has curved edges at the top/ for placement on left side of screen */
 body main .light-panel  {
-    background-color: #a6a6a6;
-    min-width: 650px;
+    background-color: #9696fd;
+    min-width: 630px;
     color: #292929; 
     border-radius: 20px 20px 0px 0;
     margin-left: 10%;
@@ -100,8 +121,8 @@ body main .light-panel2  {
     padding: 8px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #E8E8AC;
-    text-shadow: 2px 2px #B7B859;
+    color: #AFFDAF;
+    text-shadow: 2px 2px  #425F42;
     margin-bottom: 0px;
 }
 
@@ -134,8 +155,11 @@ body main .light-panel2  {
 
 .light-panel p, .light-panel2 p {
     padding: 0px 15px 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 24px;
+    color:  #293a29;
+    padding: 8px;
+    margin: 0px;
 }
 
 
@@ -146,8 +170,8 @@ body .dark-panel2{
     border-radius: 0px 0px 20px 20px;
     width: 950px;
     margin-left: 10%;
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -193,12 +217,26 @@ main article header{
 
 /* article styles - feature article, */
 
-.feature-article h3{
-    color: #2E55CA;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.feature-blog h3{
+    color: #AFFDAF;
+    text-shadow: 2px 2px  #425F42;
+    font-size: 36px;
+    font-family: 'Gaegu', cursive;
     margin-left: 20px;
+    padding: 0px;
+    margin: 0px;
 
 }
+.feature-blog h4{
+    color: #425F42;
+    font-size: 36px;
+    font-family: 'Gaegu', cursive;
+    margin-left: 20px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
 
 .feature-article hr {
     padding: 0px;
@@ -247,8 +285,12 @@ padding-left:5px;
 /* article styles - feature content, */
 
 .feature-content p {
-    text-align: left;
+    text-align: center;
     text-indent: 4%;
+    padding: 50px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin: 0px;
 }
 
 
@@ -325,13 +367,16 @@ padding-left:5px;
     
      margin-top: 20px;
      margin-bottom: 10px;
+    padding:10px;
+    text-align: center;
         
-    
-        
+    }
+    .music-card{
+        text-align: center;
     }
  
 
- .blog-card img {
+ .music-card img {
      width: 200px;
      height: 200px;
      padding: 10px;

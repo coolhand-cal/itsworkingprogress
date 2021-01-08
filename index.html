@@ -7,25 +7,37 @@
     <meta name="viewport" content="width-device-width">
     <title> Its-Working-Progress </title>
     <link href="homeStyle.css" rel="stylesheet" type="text/css" />
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Crete+Round&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@500&family=Crete+Round&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Gaegu&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
+
+     <!-- header contains banner and nav bar. Logo to be added later   -->
     <header>
         <div class="banner-image">
             <h1 class="logo" ></h1>
             <nav>
-                <a href ="#"> Home </a>
-                <a href ="articles.html"> Articles </a> 
-                <a href ="blog.html"> Blog </a>
-                <a href ="music.html"> Music </a>
+                <a href ="#" class="home-link"> Home </a>
+                <a href ="articles.html" class="article-link"> Articles </a> 
+                <a href ="blog.html" class="blog-link"> Blog </a>
+                <a href ="music.html" class="music-link"> Music </a>
                 <a href = "#"> Shop </a>
-                <a href = "#"> Connect </a>
+                <a href = "connect.html" class="connect-link"> Connect </a>
             </nav>
         </div>
     </header>
     <main>
+
+          <!-- First panel includes welcome message  -->
+
         <div class="light-panel">
             <h2> Welcome </h2>
             <p> Welcome! It’s a Great day to Grind.  My name is Calvin Croxton and its Working Progress. I am a work in progress, 
@@ -38,6 +50,8 @@
              </p>
         </div >
              
+          <!-- contains larger nav panel with color coded images for each page of site   -->
+
         <div class="dark-panel" id="site-guide">
            <h2>Explore</h2>
             <nav class="navmenu">
@@ -45,86 +59,94 @@
                <a href="blog.html"><img src="icon/blog-icon.png" alt="Articles" onmouseover="this.src='icon/blog-icon-on.png';" onmouseout="this.src='icon/blog-icon.png'"></a> 
                <a href="music.html"><img src="icon/music-icon.png" alt="Articles" onmouseover="this.src='icon/music-icon-on.png';" onmouseout="this.src='icon/music-icon.png'"></a>
                <a href="#"><img src="icon/shop-icon.png" alt="Articles" onmouseover="this.src='icon/shop-icon-on.png';" onmouseout="this.src='icon/shop-icon.png'"></a>
-               <a href="#"><img src="icon/connect-icon.png" alt="Articles" onmouseover="this.src='icon/connect-icon-on.png';" onmouseout="this.src='icon/connect-icon.png'"></a>
+               <a href="connect.html"><img src="icon/connect-icon.png" alt="Articles" onmouseover="this.src='icon/connect-icon-on.png';" onmouseout="this.src='icon/connect-icon.png'"></a>
             </nav>
             
         </div>
+
+          
+          <!-- next panel contains color coded cards containing featured content   -->
+
         <div class="light-panel2"> 
             <h2> New Work </h2>
             <article>
-                <section class="card">
+                
+          <!-- card 1 -->
+
+                <section class="music-card">
 
                     <Header>
                         <h4> New Release! </h4>
-                        <img src="images\Basketball.jpg" alt="4 quaters cover art">
+                        <img src="images\single-cover.png" alt="4 quaters cover art">
                     </header>
                     <h3> Coolhand Cal - 4 Quarters  </h3>
-                    <div class ="music-container">
-                        <div class="music-header"> 
-                            <div class="title"><p>Coolhand Cal</p></div>
-                        </div>
-                        <div class="music-play">
-                            <div class="play-image">
-                                <img src="images\Basketball.jpg" alt="4 quaters cover art">
-                            </div>
-                            <div class="controls">
-                                <div class="song-name">
-                                    <h5> 4 Quarters</h5> 
-                                    <p>prod by Drape God</p>
-                                    <audio controls>
-                                        <source src="audio/4-quarters.mp3" type="audio/mpeg">
-                                    </audio>
-                                </div>
-                            </div>
-                                  
-                        </div>
-                        
-                        
-                        
-                            
-                    </div>
+                    <p>First Official release from Baltimore artist Coolhand cal. Not well known but well respected and
+                        for good reason. Go on Press that play button. you know you want to.
+                    </p>
+                    
+                    <a href="http://www.smarturl.it/fzvg0t"><button style="width:80px;">GO!</button></a>
                 </section>
-                <section class="card">
+        <!-- card 2 -->
+                <section class="news-card">
                     <header> 
-                        <h4> New Blog Post </h4>
+                        <h4> New Article </h4>
                         <img src="images\magnify.jpg" alt="magnifying glass">
                     </header>
-                    <h4> The importancy of inquiry </h4>
+                    <h3> The importancy of inquiry </h3>
                     <p> Inquiry - an act of asking for information. Is the world round or flat? Should be an easy answer for most but how do you know? What 
                         makes that good enough? what other ways of knowing are there? Dive in to the full article for more. </p>
-                        <a href="#">read more</a>
+                        
+                    <a href="articles.html"><button style="width:80px;">GO!</button></a>
                 </section>
-                <section class= "card">
+        <!-- card 3 -->
+                <section class= "blog-card">
                     <header>
                         <h4> New Blog Post </h4>
-                        <img src="images\thanks.jpg" alt="Thank you letter">
+                        <img src="images\star.jpg" alt="Star in night sky">
                     </header>
-                    <h3> Many Thanks </h3>
-                    <p>First Blog post! Many things to get into but starting off gotta show love to those who innfluence the creation of this site
-                        both directly and indirectly.
+                    <h3> What makes night </h3>
+                    <p>
+                        "The Darkness?" I chuckle softly. "The darkness is coming?" I roar with laughter. 
+                                "Finally they can see it!" I exclaim as my laughter twists into weeping. 
+                                I tried to warn them...Back when the screams were just whispers… 
                     </p>
-                    <a href="#">read more</a>
+                    <a href="blog.html"><button style="width:80px;">GO!</button></a>
                 </section>
             </article>
         </div>
+        <!-- next section hints at whats coming next-->
+
+        
         <div class="dark-panel" id="upcoming">
             <h2> Work in Progress </h2>
                     <p> Your looking at the first iteration of itsworking progress. Got plenty in the pipeline im hoping to bring to you all this winter. Not everything on the site is functional atm but we working! also got 4-quarters and a few other songsa 
                         hitting all streaming platforms in january, New articles coming every week, and i cant say exactly when since its not at the top of my list but the working progress podcast will
                         be coming back as well. I'm grateful for all who stopped by. Saved a few screenshots of the page as it is now will be interesting to see how it looks a year from now.  </p>                    
         </div>
+
+        
+        <!-- next section contains sign up form -->
+
         <div class="light-panel2" >
             <h2> are you a workaholic? </h2>
             <p>Enjoying the site? want to recieve updates when new content is posted?</p>
             <p>Enter your email address to sign up for alerts 
-            <input type="email"> <button>submit</button>
+
+            <form class ="email-form">
+                <label for="email-input"> Enter Email: </label>
+                <input type="email" id="email-input" required>
+                <input type="submit" id ="submit-email" value="Submit">
+            </form>
         </p>
         </div>
    
+        <!-- next section contains links to other platforms-->
+
     <footer class="dark-panel2">
         <img src="icon/ig-icon.png">
         <img src="icon/youtube-icon.png">
     </footer> 
+
 </main>
 
         <p class = "footnote"> Last updated 12/7/2020 </p>
